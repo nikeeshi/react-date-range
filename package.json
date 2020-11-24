@@ -1,8 +1,11 @@
 {
-  "name": "react-date-range",
+  "name": "@indeed/react-date-range",
   "version": "1.0.3",
   "description": "A React component for choosing dates and date ranges.",
   "main": "dist/index.js",
+  "publishConfig": {
+    "@indeed:registry": "https://nexus.corp.indeed.com/repository/npm-internal/"
+  },
   "scripts": {
     "start": "yarn build:css & styleguidist server",
     "build": "yarn build:css & yarn build:js & styleguidist build",
